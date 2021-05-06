@@ -1,0 +1,125 @@
+body
+{
+    background-image: url(background.jpg);	
+	font-family: "Helvetica Neue",Helvetica,Arial,Sans-Serif;
+	font-size: 14px;
+	line-height: 20px;
+	color: #333;
+	margin-top: 0;
+	padding-top: 0;
+    padding-left:200px;
+    padding-right:200px;
+}
+
+hr
+{
+	height:1px;
+	border-width:0;
+	color:#cccccc;
+	background-color:#cccccc;
+}
+
+/* Rule to fix quirks-mode inheritance behavior */
+table, caption {
+  font-size: inherit;
+  font-weight: inherit;
+  font-style: inherit;
+  font-variant: inherit;
+}
+
+h1 {
+	font-size: 1.9em;
+}
+
+h2 {
+	font-size: 1.6em;
+}
+
+h3 {
+	font-size: 1.3em;
+}
+
+.prettyprint
+{
+	background-color: #fffeee;
+	border: dashed #888888 1px;
+	padding: 10px 10px;
+	white-space:pre-wrap;
+	word-wrap: break-word;
+}
+.code
+{
+	font-family: monospace;
+	background-color: #cfcfcf;
+	color: #000;
+	padding: 1em;
+	border: 1px dashed #666;
+}
+
+.doccode 
+{
+    background-color: #efefef;
+    padding:10px 10px;
+    border:solid #444444 1px;
+    white-space:pre-wrap;
+}
+
+.doctable
+{
+    background-color:#f2f2f2;
+    border-collapse:collapse;
+    width:100%;
+}
+
+.doctable th 
+{
+	background-color: #000088;
+    color:#eeeeee;
+    font-weight:bold;
+    text-align:left;
+    border:solid #d8d8d8 1px;
+    padding:5px 5px;
+    white-space:nowrap;
+}
+
+.doctable th a 
+{
+    color:#eeeeee;
+}
+
+.doctable td
+{
+    border:solid #d8d8d8 1px;
+    padding:5px 5px;
+}
+
+.obsolete
+{
+    color:red;
+}
+
+.doclist 
+{
+    line-height:20px;
+}   
+    
+.doclistbullet
+{
+    list-style-type:square;
+}
+ 
+.doclistnumeric
+{
+    list-style-type:decimal;
+} 
+
+#section 
+{
+}
+
+.docnote 
+{
+    padding:2px 2px;
+    border-top:solid orange 1px;
+    border-bottom:solid orange 1px;
+}
